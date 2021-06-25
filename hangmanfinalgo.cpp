@@ -1,6 +1,6 @@
 /* Hangman Game
-	Created by: Neha Narine USI-1036859
-				Renike Fraser USI-1037455*/
+	Created by: Neha Narine
+				Renike Fraser */
 
 #include "stdio.h"
 #include "stdlib.h"
@@ -107,7 +107,7 @@ int main() {
 		
 		if( prevCorrect == correctEntry && alreadyPicked == 0) {		// llines 104 - 107 tries to verify if a letter inserted is not correct nor new
 			livesLeft--;												// if the previous line is true then the entry is incorrect and 1 life is removed from the user
-			printf("	Wrong guess (·_·) \n");
+			printf("	Wrong guess (Â·_Â·) \n");
 			printf("	Lives left: %d", livesLeft);
 			if (livesLeft == 0) {										// if the user runs out of lives then the loop ends.
 				break;
